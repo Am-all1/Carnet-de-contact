@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Mon carnet d'adresse</title>
+  </head>
+  <body>
+    <header>
+      <div id="titrePrincipal">CONTACTS</div>
+    </header>
+
+    <form id="form">
+      <div id="coordonnees"
+
+        <input type="select" value="Contacts Professionnels"
+        id="ContacsProfessionnels" /> 
+    
+
+        <input type="text" name="Name" placeholder="Prénom" id="firstname" />
+        <input type="text" name="firstName" placeholder="Nom" id="name" />
+        <input type="email" name="Mail" placeholder="email" id="mail" />
+        <input type="text" name="Phone" placeholder="Téléphone" id="phone" />
+        <input type="text" name="adresse" placeholder="adresse" id="adresse" />
+        <input
+          type="text"
+          name="compagnyName"
+          placeholder="Raison sociale"
+          id="compagnyName"
+        />
+         <select class="persoPro" name="persoPro">
+      <option value="pro">Pro</option>
+      <option value="perso">Perso</option>
+        <input type="submit" value="Ajouter" id="add" />
+  
+
+      </div>
+    </form>
+
+    <ul id="liste"></ul>
+   
+
+
+    <div class="filtreDiv">
+      <input  class="filtreInput" type="text" placeholder="Votre filtre">
+     
+      <button class="filtreButton">Filtrer</button>
+
+    </div>
+    <p>Vos résultat de filtre:</p>
+    <div class="renderFiltre"></div>
+    <p>Vos contacts</p>
+    <div class="renderContact"></div>
+    <div class="modifContact"></div>
+
+
+    <script type="text/javascript" src="script3.js"></script>
+  </body>
+</html>
